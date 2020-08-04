@@ -11,4 +11,5 @@ public class Concatenate {
 	{
 		return str1 + str2;
 	}
+
 }
