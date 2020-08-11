@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6c6fff-48ea-43d5-876b-2470258fa282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/comp2100_6442_s2_2020.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task1/MarkCalculatorTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task1/Task1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task1/out/production/Task1/Task1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task2/PathComplete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task2/PathCompleteTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task2/Task2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task1/MarkCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/MarkCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task1/MarkCalculatorTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PathCompleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PathCompleteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +23,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1fwWzLfpgQPP2PldeUmCX37ZmhP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -38,6 +40,23 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PathCompleteTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PathCompleteTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PathCompleteTest.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,14 +69,41 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="325" y="0" key="CommitChangelistDialog2" timestamp="1597162108725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="325" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597162108725" />
     <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1597129922474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597129922474" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597163240507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597163240507" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597163240505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597163240505" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597163240505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597163240505" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597163240505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597163240505" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1597129924072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597129924072" />
+    <state x="464" y="158" key="refactoring.ChangeSignatureDialog" timestamp="1597162066309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="158" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1597162066309" />
   </component>
 </project>

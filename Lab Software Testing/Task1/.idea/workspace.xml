@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79484583-ea1b-407f-a282-8da57382e526" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/comp2100_6442_s2_2020.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MarkCalculatorTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Task1/MarkCalculatorTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Task1/Task1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task2/Task2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/PathComplete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/PathCompleteTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/Task2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarkCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarkCalculatorTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/PathCompleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/PathCompleteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,50 +113,58 @@
       <option name="project" value="LOCAL" />
       <updated>1597127049043</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="junit test">
+      <created>1597139889415</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597139889415</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="junit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="junit test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597132007601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1597132007601" />
-    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1597127047543">
+    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1597139888121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597127047543" />
+    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597139888121" />
     <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1597129895500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597129895500" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597139547365">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597139856031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597139547365" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597139547365">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597139856031" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597139856031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597139547365" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597139547365">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597139856031" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597139856031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597139547365" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597139547365">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597139856031" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597139856031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597139547365" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597139856031" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1597126903697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597126903697" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597127109688">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597139893467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597127109688" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597139893467" />
   </component>
 </project>
