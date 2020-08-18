@@ -10,7 +10,7 @@ import org.junit.Test;
  * 
  * @author Eric McCreath - GPLv2
  * @author Huy Pham - Modified to remove unused methods for the purpose of the lab exercise.
- * @author Bernardo Pereira Nunes - New test cases, changed beforeEachTestMethod (no pointer reassignment)
+ * @author Bernardo Pereira Nunes - New test cases
  */
 
 public class BinaryTreeTest {
@@ -20,7 +20,7 @@ public class BinaryTreeTest {
 	@Before
     public void beforeEachTestMethod() {
 	    tree = new NonEmptyBinaryTree<Integer>(7);
-	    tree.insert(3)
+	    tree = tree.insert(3)
 	    	.insert(1)
 	    	.insert(5)
 	    	.insert(4)
