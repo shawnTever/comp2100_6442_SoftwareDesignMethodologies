@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6c6fff-48ea-43d5-876b-2470258fa282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Task2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Task2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Task2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Task2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Task2/PathComplete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Task2/PathCompleteTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Task2/Task2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task1/MarkCalculatorTest2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PathCompleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PathCompleteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Shawn &lt;shawntimmel@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1fwWzLfpgQPP2PldeUmCX37ZmhP" />
@@ -67,16 +63,26 @@
       <option name="presentableId" value="Default" />
       <updated>1597129897358</updated>
     </task>
+    <task id="LOCAL-00001" summary="PathComplete">
+      <created>1597165823734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597165823734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="PathComplete" />
+    <option name="LAST_COMMIT_MESSAGE" value="PathComplete" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="325" y="0" key="CommitChangelistDialog2" timestamp="1597162108725">
+    <state x="325" y="0" key="CommitChangelistDialog2" timestamp="1597165822256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="325" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597162108725" />
+    <state x="325" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597165822256" />
     <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1597129922474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -101,6 +107,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597129924072" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597166407126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597166407126" />
     <state x="464" y="158" key="refactoring.ChangeSignatureDialog" timestamp="1597162066309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

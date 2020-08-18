@@ -55,8 +55,10 @@ public class NonEmptyBinaryTree <T extends Comparable<T>> extends BinaryTree<T> 
 	public BinaryTree<T> insert(T d) {
 		// TODO: Add your implementation here
 		// ########## YOUR CODE STARTS HERE ##########
-
-		return null; //you are allowed to change this return statement
+		int compare = d.compareTo(this.data);
+		if (compare < 0) this.left = this.left.insert(d);
+		else if (compare > 0) this.right = this.right.insert(d);
+		return this; //you are allowed to change this return statement
 		// ########## YOUR CODE ENDS HERE ##########		
 	}
 
@@ -104,9 +106,23 @@ public class NonEmptyBinaryTree <T extends Comparable<T>> extends BinaryTree<T> 
 	public BinaryTree<T> delete(T d) {
 		// TODO: Add your implementation here
 		// ########## YOUR CODE STARTS HERE ##########
+		T successor = null, predecessor = null;
+		if (!this.right.isEmpty()) successor = this.right.smallest();
+		if (!this.left.isEmpty()) predecessor = this.left.biggest();
+
+		int compare = d.compareTo(this.data);
+		if (compare < 0) this.left = this.left.delete(d);
+		else if (compare > 0) this.right = this.right.delete(d);
+		else {
+			if (this.left.isEmpty() && this.right.isEmpty())
+				return new EmptyBinaryTree<>();
+			else if (this.left.isEmpty() && !this.right.isEmpty())
+				return new NonEmptyBinaryTree<T>(successor, this.left, this.right.delete(successor));
+			else if (!this.left.isEmpty() && this.right.isEmpty())
+				return new NonEmptyBinaryTree<T>(predecessor, this.left.delete(predecessor), this.right);
+		}
 		
-		
-		return null; //you are allowed to change this return statement
+		return this; //you are allowed to change this return statement
 		// ########## YOUR CODE ENDS HERE ##########
 	}
 
