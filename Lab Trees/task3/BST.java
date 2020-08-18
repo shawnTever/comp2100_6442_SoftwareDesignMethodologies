@@ -21,7 +21,17 @@ public class BST {
 		// TODO
 		// START YOUR CODE
 
-		return null; //you are allowed to change this return statement
+		Node current = root;
+
+		while (current.value > x && current.value > y) {
+			current = current.left;
+		}
+
+		while (current.value < x && current.value < y) {
+			current = current.right;
+		}
+
+		return current.value;//you are allowed to change this return statement
 		// END YOUR CODE
 	}
 

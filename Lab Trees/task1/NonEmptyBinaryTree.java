@@ -120,6 +120,7 @@ public class NonEmptyBinaryTree <T extends Comparable<T>> extends BinaryTree<T> 
 				return new NonEmptyBinaryTree<T>(successor, this.left, this.right.delete(successor));
 			else if (!this.left.isEmpty() && this.right.isEmpty())
 				return new NonEmptyBinaryTree<T>(predecessor, this.left.delete(predecessor), this.right);
+			else return new NonEmptyBinaryTree<T>(successor, this.left, this.right.delete(successor));
 		}
 		
 		return this; //you are allowed to change this return statement

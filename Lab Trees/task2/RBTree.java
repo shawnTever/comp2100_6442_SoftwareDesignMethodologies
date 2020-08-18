@@ -70,9 +70,10 @@ public class RBTree<T extends Comparable<T>> {
 				// Case 1: Recolour
 				// TODO: Implement this part
 				// ########## YOUR CODE STARTS HERE ##########
-				
-				
-				
+				x.parent.colour = Colour.BLACK;
+				uncle.colour = Colour.BLACK;
+				x.parent.parent.colour = Colour.RED;
+
 				// ########## YOUR CODE ENDS HERE ##########
 				// Check if violated further up the tree
 				x = x.parent.parent;
@@ -90,9 +91,10 @@ public class RBTree<T extends Comparable<T>> {
 						// Perform right rotation
 						// TODO: Implement this part
 						// ########## YOUR CODE STARTS HERE ##########
-						
-						
-						
+						if (x.value == root.value)
+							root = x.left; // Update root
+						rotateRight(x);
+
 						// ########## YOUR CODE ENDS HERE ##########
 					}
 				}
@@ -105,8 +107,9 @@ public class RBTree<T extends Comparable<T>> {
 				if (left) {
 					// Perform right rotation
 					// ########## YOUR CODE STARTS HERE ##########
-					
-				
+					if (x.parent.parent.value == root.value)
+						root = x.parent;
+					rotateRight(x.parent.parent);
 
 
 					// ########## YOUR CODE ENDS HERE ##########
@@ -114,11 +117,10 @@ public class RBTree<T extends Comparable<T>> {
 					// This is part of the "then" clause where left and right are swapped
 					// Perform left rotation
 					// ########## YOUR CODE STARTS HERE ##########
+					if (x.parent.parent.value == root.value)
+						root = x.parent;
+					rotateLeft(x.parent.parent);
 
-					
-					
-					
-					
 					// ########## YOUR CODE ENDS HERE ##########
 				}
 			}
@@ -174,7 +176,21 @@ public class RBTree<T extends Comparable<T>> {
 		// TODO: Implement this function
 		// HINT: It is the mirrored version of rotateLeft()
 		// ########## YOUR CODE STARTS HERE ##########
-		
+		if (x.parent != null) {
+			// Determine whether this node is the left or right child of its parent
+			if (x.parent.left.value == x.value) {
+				x.parent.left = x.left;
+			} else {
+				x.parent.right = x.left;
+			}
+
+			x.left.right.parent = x;
+			x.left.parent = x.parent;
+			x.parent = x.left;
+			x.left = x.left.right;
+			x.parent.right = x;
+
+		}
 		
 
 		// ########## YOUR CODE ENDS HERE ##########
