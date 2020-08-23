@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec8ed8af-89e4-409a-8d71-a586c138f115" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/task1/string.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/NonEmptyBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1/NonEmptyBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/task2/RBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/BST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -36,14 +41,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.RBTreeTest">
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BST" />
-      <module name="Lab Trees" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.string.Test4">
     <configuration name="BSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab Trees" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,21 +60,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RBTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab Trees" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RBTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="string" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab Trees" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="string" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string.Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab Trees" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="string" />
+      <option name="METHOD_NAME" value="Test4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RBTreeTest" />
-        <item itemvalue="JUnit.BSTTest" />
-        <item itemvalue="Application.BST" />
+        <item itemvalue="JUnit.string.Test4" />
+        <item itemvalue="JUnit.string" />
+        <item itemvalue="JUnit.string.Test" />
         <item itemvalue="JUnit.BinaryTreeTest" />
+        <item itemvalue="JUnit.BSTTest" />
       </list>
     </recent_temporary>
   </component>
@@ -96,18 +115,26 @@
       <option name="project" value="LOCAL" />
       <updated>1597734869766</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="RBTree and BST">
+      <created>1597764574293</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597764574293</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="insert and delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert and delete" />
+    <MESSAGE value="RBTree and BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="RBTree and BST" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="0" key="CommitChangelistDialog2" timestamp="1597734868204">
+    <state x="360" y="0" key="CommitChangelistDialog2" timestamp="1597764573050">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597734868204" />
+    <state x="360" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597764573050" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1597735107750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -116,46 +143,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597735741192" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597764149043">
+    <state width="738" height="207" key="GridCell.Tab.0.bottom" timestamp="1597932474413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597764149043" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597764149043">
+    <state width="738" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597932474413" />
+    <state width="738" height="207" key="GridCell.Tab.0.center" timestamp="1597932474413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597764149043" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597764149043">
+    <state width="738" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597932474413" />
+    <state width="738" height="207" key="GridCell.Tab.0.left" timestamp="1597932474413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597764149043" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597764149043">
+    <state width="738" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597932474413" />
+    <state width="738" height="207" key="GridCell.Tab.0.right" timestamp="1597932474413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597764149043" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1597743743923">
+    <state width="738" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597932474413" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1597770226134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597743743923" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1597743743923">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597770226134" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1597770226134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597743743923" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1597743743923">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597770226134" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1597770226134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597743743923" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1597743743923">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597770226134" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1597770226134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597743743923" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597770226134" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1597720793136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597720793136" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597734880185">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597770217853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597734880185" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597770217853" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1597740248240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
