@@ -2,8 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec8ed8af-89e4-409a-8d71-a586c138f115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task1/string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/ListPrepQuestions_OT1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/Q1_version_students.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/BST$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/BST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/BSTTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/Q1_version_students.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/Q2_version_students.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/Q3_version_students.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/Q3_version_students.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/RBTree$Colour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/RBTree$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/RBTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/RBTreeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/task2/RBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/RBTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,27 +68,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1gFqbggSZhGKnLtImaOyR3PXOMO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LeetCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.string.Test4">
-    <configuration name="BSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.RBTree">
+    <configuration name="RBTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RBTree" />
       <module name="Lab Trees" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BSTTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RBTree" />
         <item itemvalue="JUnit.string.Test4" />
         <item itemvalue="JUnit.string" />
         <item itemvalue="JUnit.string.Test" />
         <item itemvalue="JUnit.BinaryTreeTest" />
-        <item itemvalue="JUnit.BSTTest" />
       </list>
     </recent_temporary>
   </component>
@@ -122,27 +165,40 @@
       <option name="project" value="LOCAL" />
       <updated>1597764574293</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test string">
+      <created>1598208242607</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598208242607</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="insert and delete" />
     <MESSAGE value="RBTree and BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="RBTree and BST" />
+    <MESSAGE value="test string" />
+    <option name="LAST_COMMIT_MESSAGE" value="test string" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="0" key="CommitChangelistDialog2" timestamp="1597764573050">
+    <state x="722" y="53" key="#Plugins" timestamp="1598208912296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597764573050" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1597735107750">
+    <state x="722" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1598208912296" />
+    <state x="360" y="0" key="CommitChangelistDialog2" timestamp="1598208241290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1597735107750" />
-    <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1597735741192">
+    <state x="360" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598208241290" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1598208224065">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597735741192" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1598208224065" />
+    <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1598208938981">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598208938981" />
     <state width="738" height="207" key="GridCell.Tab.0.bottom" timestamp="1597932474413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -179,10 +235,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597720793136" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597770217853">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598208244392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597770217853" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598208244392" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1597740248240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

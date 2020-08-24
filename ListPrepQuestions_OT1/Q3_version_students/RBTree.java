@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /*
  * Implement a checking function in Red-Black Tree to check if the following properties hold:
 The root and leaf (NIL) nodes are black
@@ -14,9 +16,37 @@ public class RBTree<T extends Comparable<T>> {
 	 * Please implement this method and feel free to add additional helper methods
 	 * @return
 	 */
+	public void postOrder(Node root, ArrayList<Node> arrayList) {
+		if (root != null) {
+			if (root.left != null) {
+				postOrder(root.left, arrayList);
+			}
+			if (root.right != null) {
+				postOrder(root.right, arrayList);
+			}
+			arrayList.add(root);
+		}
+	}
+
 	public boolean testProp1() {
 		// START YOUR CODE
-		
+		ArrayList<Node> arrayList = new ArrayList<>();
+		postOrder(root, arrayList);
+		for (Node node : arrayList) {
+			if (node.value == root.value)
+				return node.colour == Colour.BLACK;
+			else if (node.left == null && node.right == null)
+				return node.colour == Colour.BLACK;
+			else {
+				if (node.colour == Colour.BLACK)
+					if (node.left != null) return node.left.colour == Colour.RED;
+					else if (node.right != null) return node.right.colour == Colour.RED;
+				else if (node.colour == Colour.RED)
+					if (node.left != null) return node.left.colour == Colour.BLACK;
+					else if (node.right != null) return node.right.colour == Colour.BLACK;
+			}
+
+		}
 		return false; //you are allowed to change this return statement
 		// END YOUR CODE
 	}
@@ -28,7 +58,7 @@ public class RBTree<T extends Comparable<T>> {
 	public boolean testProp2() {
 		// START YOUR CODE
 		
-		return false; //you are allowed to change this return statement
+		return true; //you are allowed to change this return statement
 		// END YOUR CODE
 	}
 
@@ -154,5 +184,31 @@ public class RBTree<T extends Comparable<T>> {
 	
 	public enum Colour {
 		RED, BLACK;
+	}
+
+
+	public static void main(String[] args) {
+		RBTree tree = new RBTree<Integer>();
+
+		tree.insert(7);
+		tree.insert(3);
+		tree.insert(1);
+		tree.insert(0);
+		tree.insert(2);
+		tree.insert(5);
+		tree.insert(4);
+		tree.insert(6);
+		tree.insert(11);
+		tree.insert(9);
+		tree.insert(8);
+		tree.insert(10);
+		tree.insert(15);
+		tree.insert(13);
+		tree.insert(12);
+		tree.insert(14);
+		tree.insert(17);
+		tree.insert(16);
+		tree.insert(18);
+		tree.insert(19);
 	}
 }
