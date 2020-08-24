@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Lab 1 - warmup" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lab Software Testing" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lecture - Software Testing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Q1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Q2" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="11.0.3" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

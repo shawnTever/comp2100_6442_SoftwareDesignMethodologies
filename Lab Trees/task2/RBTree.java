@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 /**
  * Skeleton code for Red Black Tree
@@ -257,48 +256,5 @@ public class RBTree<T extends Comparable<T>> {
 	 */
 	public Node<T> search(T key) {
 		return find(root, key);
-	}
-
-
-	public void postOrder(Node root, ArrayList<Node> arrayList) {
-		if (root != null) {
-			if (root.left != null) {
-				postOrder(root.left, arrayList);
-			}
-			if (root.right != null) {
-				postOrder(root.right, arrayList);
-			}
-			arrayList.add(root);
-		}
-	}
-
-	public static void main(String[] args) {
-		RBTree tree = new RBTree<Integer>();
-		ArrayList<Node> arrayList = new ArrayList<>();
-		tree.insert(7);
-		tree.insert(3);
-		tree.insert(1);
-		tree.insert(0);
-		tree.insert(2);
-		tree.insert(5);
-		tree.insert(4);
-		tree.insert(6);
-		tree.insert(11);
-		tree.insert(9);
-		tree.insert(8);
-		tree.insert(10);
-		tree.insert(15);
-		tree.insert(13);
-		tree.insert(12);
-		tree.insert(14);
-		tree.insert(17);
-		tree.insert(16);
-		tree.insert(18);
-		tree.insert(19);
-		tree.postOrder(tree.root, arrayList);
-		for (Node node : arrayList) {
-			System.out.println(node.value);
-		}
-
 	}
 }

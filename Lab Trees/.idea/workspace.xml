@@ -2,50 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec8ed8af-89e4-409a-8d71-a586c138f115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/ListPrepQuestions_OT1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/Q1_version_students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/BST$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/BST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/BSTTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/out/production/Q1_version_students/Q1_version_students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/Q2_version_students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/Q3_version_students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/Q3_version_students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/RBTree$Colour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/RBTree$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/RBTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/out/production/Q3_version_students/RBTreeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task2/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/task2/RBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q1_version_students/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/RBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q2_version_students/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1/Q3_version_students/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

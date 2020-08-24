@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f1a92a-f797-4980-a048-95f803657762" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListPrepQuestions_OT1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/Q1_version_students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/out/production/Q1_version_students/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/out/production/Q1_version_students/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/out/production/Q1_version_students/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/out/production/Q1_version_students/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/out/production/Q1_version_students/BST$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/out/production/Q1_version_students/BST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/out/production/Q1_version_students/BSTTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q1_version_students/out/production/Q1_version_students/Q1_version_students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q2_version_students/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q2_version_students/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q2_version_students/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q2_version_students/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q2_version_students/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Q2_version_students/Q2_version_students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3_version_students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q3_version_students/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q3_version_students/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q3_version_students/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q3_version_students/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q3_version_students/Q3_version_students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q3_version_students/RBTree$Colour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q3_version_students/RBTree$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q3_version_students/RBTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q3_version_students/RBTreeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab Trees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab Trees/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab Trees/task2/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab Trees/task2/RBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Q1_version_students/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Q1_version_students/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q2_version_students/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Q2_version_students/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +24,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JUNIT4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ANU/semester2 new/COMP2100COMP6442SoftwareDesignMethodologies/week5/Q1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -99,26 +58,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1598236663238">
+    <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1598249349986">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598236663238" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598244173361">
+    <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598249349986" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598280984470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598244173361" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598244173360">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598280984470" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598280984470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598244173360" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598244173359">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598280984470" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598280984470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598244173359" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598244173360">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598280984470" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598280984470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598244173360" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598280984470" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1598236665247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
