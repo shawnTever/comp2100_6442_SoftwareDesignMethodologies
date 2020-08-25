@@ -47,8 +47,26 @@ public class MyTokenizer extends Tokenizer {
         // TODO: Implement integer literal tokenising
         // HINT: Character.isDigit() may be useful        
         // ########## YOUR CODE STARTS HERE ##########
-       
-       
+        String s = "";
+        int i = 0;
+        if(firstChar == '*')
+            currentToken = new Token("*", Token.Type.MUL);
+        if(firstChar == '/')
+            currentToken = new Token("/", Token.Type.DIV);
+        if(firstChar == '(')
+            currentToken = new Token("(", Token.Type.LBRA);
+        if(firstChar == ')')
+            currentToken = new Token(")", Token.Type.RBRA);
+        while (Character.isDigit(firstChar)) {
+            s = s + firstChar;
+            currentToken = new Token(s, Token.Type.INT);
+            if (_buffer.length() > ++i)
+                firstChar = _buffer.charAt(i);
+            else break;
+        }
+
+
+
         // ########## YOUR CODE ENDS HERE ##########
         
         // Remove the extracted token from buffer
