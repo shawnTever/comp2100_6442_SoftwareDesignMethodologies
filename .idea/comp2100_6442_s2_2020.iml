@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Lecture - Software Testing" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Q1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Q2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lecture - Persistent Data" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="11.0.3" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
