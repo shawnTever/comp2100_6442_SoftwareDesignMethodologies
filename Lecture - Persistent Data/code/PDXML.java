@@ -87,6 +87,7 @@ public class PDXML {
 
 				Element firstnameElement = d.createElement("FirstName");//<FirstName> ... </FirstName>
 				firstnameElement.appendChild(d.createTextNode(person.getFirstname()));//<FirstName> here goes firstname </FirstName>
+//				firstnameElement.appendChild(d.createTextNode(person.getLastname()));
 				personElement.appendChild(firstnameElement);//<Person id="1"><FirstName> here goes firstname </FirstName></Person>
 
 				Element lastnameElement = d.createElement("LastName");
@@ -123,9 +124,9 @@ public class PDXML {
 		xml.people.add(new Person(11,"Homer", "Simpson"));
 		xml.people.add(new Person(12,"Maggie", "Simpson"));
 
-		xml.saveData("resources/people1.xml");
+		xml.saveData("code/resources/people1.xml");
 
-		List<Person> newPeople = xml.loadData("resources/people.xml");
+		List<Person> newPeople = xml.loadData("code/resources/people.xml");
 		for(Person p : newPeople)
 		{
 			System.out.println(p.toString());

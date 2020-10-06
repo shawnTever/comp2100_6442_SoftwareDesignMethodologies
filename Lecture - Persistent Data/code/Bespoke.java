@@ -21,13 +21,13 @@ public class Bespoke {
 		
 		//loading...
 		
-		b.loadData("resources/listoferrors.txt", delimiter);
+		b.loadData("code/resources/listoferrors.txt", delimiter);
 			
 		for(Map.Entry<Integer, SimpleLog> e : b.data.entrySet())
 			System.out.println(e.getValue().toString());
 			
 		//saving...
-		b.saveData("resources/listoferrors_1.txt", delimiter, true);
+		b.saveData("code/resources/listoferrors_1.txt", delimiter, true);
 	}
 
 	/*

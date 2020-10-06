@@ -12,8 +12,7 @@ import com.google.gson.stream.JsonReader;
 
 import java.io.*;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -25,6 +24,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
 // import any standard library if needed
+import com.google.gson.Gson;
 
 /**
  * A book collection holds 0 or more books in a collection.
@@ -84,11 +84,18 @@ public class BookCollection {
 		// TODO: Implement this function yourself. The specific hierarchy is up to you,
 		// but it must be in a bespoke format and should match the
 		// load function.
-
-
-		
-		
-		
+		try(BufferedWriter bw = new BufferedWriter(new FileWriter(file, true)))
+		{
+			for (Book book : books) {
+				String bookInformation = book.title + ";" + book.authorName + ";" +
+						book.yearReleased + ";" + book.bookGenre;
+				bw.write(bookInformation);
+				bw.newLine();
+			}
+		}catch(IOException e)
+		{
+			e.printStackTrace();
+		}
 	}
 
 	/**
@@ -99,10 +106,13 @@ public class BookCollection {
 	public void saveToJSONFile(File file) {
 		// TODO: Implement this function yourself. The specific hierarchy is up to you,
 		// but it must be in a JSON format and should match the load function.
-
-		
-		
-		
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		try(FileWriter fw = new FileWriter(file)){
+			gson.toJson(books, fw);
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
 	}
 
 	/**
@@ -114,10 +124,47 @@ public class BookCollection {
 		// TODO: Implement this function yourself. The specific hierarchy is up to you,
 		// but it must be in an XML format and should match the
 		// load function.
-	
-		
-		
-		
+		File f = new File(String.valueOf(file));
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		try {
+			DocumentBuilder db = dbf.newDocumentBuilder();
+			Document d = db.newDocument();
+
+			Element rootElement = d.createElement("Books");
+			d.appendChild(rootElement);
+
+			for(Book book : books)
+			{
+				Element bookElement = d.createElement("Book");
+				bookElement.setAttribute("title", book.title);//<Person id="1">..
+
+				Element authorNameElement = d.createElement("authorName");
+				authorNameElement.appendChild(d.createTextNode(book.authorName));
+				bookElement.appendChild(authorNameElement);
+
+				Element yearReleasedElement = d.createElement("yearReleased");
+				yearReleasedElement.appendChild(d.createTextNode(Integer.toString(book.yearReleased)));
+				bookElement.appendChild(yearReleasedElement);
+
+				Element bookGenreElement = d.createElement("bookGenre");
+				bookGenreElement.appendChild(d.createTextNode(book.bookGenre.display()));
+				bookElement.appendChild(bookGenreElement);
+
+				rootElement.appendChild(bookElement);
+			}
+
+			Transformer transformer = TransformerFactory.newInstance().newTransformer();
+			transformer.setOutputProperty(OutputKeys.ENCODING, "utf-8");
+			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+
+			DOMSource source = new DOMSource(d);
+			StreamResult result = new StreamResult(f);
+			transformer.transform(source, result);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
 	}
 
 	/**
@@ -128,9 +175,23 @@ public class BookCollection {
 	 */
 	public static BookCollection loadFromBespokeFile(File file) {
 		// TODO: Implement this function yourself.
-		
-		
-		
+		BookCollection bookCollection= new BookCollection();
+		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+			String record;
+			while((record = br.readLine()) != null)
+			{
+				String[] tokens = record.split(";");
+				Book book = new Book(tokens[0], tokens[1],
+						Integer.parseInt(tokens[2]), BookGenre.valueOf(tokens[3]));
+				bookCollection.books.add(book);
+			}
+
+		}catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+
+			return bookCollection;
 	}
 
 	/**
@@ -141,10 +202,19 @@ public class BookCollection {
 	 */
 	public static BookCollection loadFromJSONFile(File file) {
 		// TODO: Implement this function yourself.
+		Gson gson = new Gson();
+		JsonReader jsonReader = null;
+		BookCollection bookCollection = new BookCollection();
+		final Type CUS_LIST_TYPE = new TypeToken<List<Book>>() {}.getType();
+		//or TypeToken.getParameterized(ArrayList.class, PersonJSON.class).getType();
 
-	
-		
-		
+		try{
+			jsonReader = new JsonReader(new FileReader(file));
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		bookCollection.books = gson.fromJson(jsonReader, CUS_LIST_TYPE);
+		return bookCollection;
 	}
 
 	/**
@@ -155,9 +225,44 @@ public class BookCollection {
 	 */
 	public static BookCollection loadFromXMLFile(File file) {
 		// TODO: Implement this function yourself.
-		
-		
-		
-		
+		File f = new File(String.valueOf(file));
+		//create a DocumentBuilder instance: DocumentBuilderFactory
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		//list
+		List<Book> lb = new ArrayList<>();
+		BookCollection bookCollection = new BookCollection();
+
+		try {
+			DocumentBuilder db = dbf.newDocumentBuilder();
+			Document d = db.parse(f);
+			d.getDocumentElement().normalize();
+
+			NodeList nl = d.getElementsByTagName("Book");
+
+			for(int i = 0; i < nl.getLength(); i++)
+			{
+				Node n = nl.item(i);
+				if(n.getNodeType() == Node.ELEMENT_NODE) {
+					Element element = (Element) n;
+					String title = element.getAttribute("title");
+					String authorName = element.getElementsByTagName("authorName").item(0).getTextContent();
+					Integer yearReleased = Integer.parseInt(element.getElementsByTagName("yearReleased").item(0).getTextContent());
+					String bookGenreString = element.getElementsByTagName("bookGenre").item(0).getTextContent();
+					BookGenre[] bG = BookGenre.class.getEnumConstants();
+					Map<String, BookGenre> bookMap = new HashMap<>();
+					for (BookGenre bg : bG) {
+						bookMap.put(bg.name, bg);
+					}
+					Book book = new Book(title, authorName, yearReleased, bookMap.get(bookGenreString));
+					lb.add(book);
+				}
+			}
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		bookCollection.books = lb;
+		return bookCollection;
 	}
 }

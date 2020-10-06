@@ -51,9 +51,9 @@ public class PDJSON {
 		pdj.people.add(new PersonJSON(2,"Homer", "Simpson", new AddressJSON("Springfield", "USA")));
 		pdj.people.add(new PersonJSON(3,"Mickey", "Mouse", new AddressJSON("Orlando", "USA")));
 
-		pdj.saveData("resources/listofpeople.json");
+		pdj.saveData("code/resources/listofpeople.json");
 
-		List<PersonJSON> lp = pdj.loadData("resources/listofpeople.json"); 
+		List<PersonJSON> lp = pdj.loadData("code/resources/listofpeople.json");
 		for(PersonJSON pj : lp)
 		{
 			System.out.println(pj.toString());
