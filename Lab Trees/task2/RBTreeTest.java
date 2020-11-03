@@ -9,9 +9,9 @@ public class RBTreeTest {
 	@Before
 	public void setUp() {
 		tree = new RBTree<Integer>();
-		tree.insert(7); 
-		tree.insert(5); 
-		tree.insert(9); 
+		tree.insert(1); 
+		tree.insert(2);
+		tree.insert(3);
 	}
 	
 	@Test(timeout=1000)
@@ -21,7 +21,11 @@ public class RBTreeTest {
 	
 	@Test(timeout=1000)
 	public void testInsertDuplicate() {
-		tree.insert(9);
+		tree.insert(4);
+		tree.insert(5);
+		tree.insert(6);
+		tree.insert(7);
+		tree.insert(8);
 		Assert.assertEquals("7 5 9", tree.preOrder());
 	}
 	
